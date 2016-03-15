@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu formulário</title>
+    </head>
+    <body>
+        <h1>Meu formulário</h1>
+        <form method="POST" action="http://labs.edysegura.com/requests/">
+            <label>Nome</label>
+            <input type="text" name="nome">
+            <label>Sobrenome</label>
+            <input type="text" name="sobrenome">
+            
+            <select name="disciplina">
+                <option value="TP5">Técnicas de Programação 5</option>
+                <option value="es3">Engenharia de Software 3</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+        <h1>Buscar no G1</h1>
+        <form method="GET" action="http://g1.globo.com/busca">
+            <label>Buscar</label>
+            <input type="text" name="q">
+            <input type="submit" value="Buscar">
+        </form>
+    </body>
+</html>
