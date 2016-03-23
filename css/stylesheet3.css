@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    color: cadetblue;
+    font-size: 40px;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-family: verdana;
+    color: cadetblue;
+    padding: 3px;
+}
+
+h3 {
+    color: gray;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.formlabel {
+    font-family: Arial, sans-serif;
+}
+
+#divfoto {
+    float: left;
+    width: 21%;
+    height: 300px;
+    
+}
+
+#divpagina {
+    height: 700px;
+    border: 15px double;
+    border-radius: 20px;
+    border-color: darkblue;
+    position: relative;
+   
+}
+
+#divnome {
+    width: 100%;
+    float: none;
+    height: 50px;
+}
+
+#divident {
+    float: right;
+    width: 79%;
+    height: 300px;
+    margin: 0px;
+}
+
+#divinform {
+    float: inherit;
+    width: 100%;
+    height: 300px;
+}
+
+img {
+    margin: 24px;
+    border: 5px double;
+    border-color: darkblue;
+}
+
+li{
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+body {
+    background: url("/imgs/papel2.jpg") repeat-y;
+}
